@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333; /* Keeps the original dark header */
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+.btn-custom {
+    background: #555;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 5px;
+    display: inline-block;
+    transition: background 0.3s ease;
+}
+
+.btn-custom:hover {
+    background: #777;
+    color: white;
+}
+
+#posts-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.post {
+    background: white;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.post a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
