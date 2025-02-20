@@ -3,23 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>First Blog Post</title>
-    <link rel="stylesheet" href="style.css">
+    <title>March Blog Post</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/post1.css">
     <link rel="icon" type="image/png" href="images/Logo.png">
 </head>
 <body>
-    <header>
-        <h1>First Blog Post</h1>
-        <a href="index.html">Back to Home</a>
+
+    <header class="text-center py-3">
+        <h1>March Blog Post</h1>
+        <a href="index.html" class="btn btn-custom mt-2">Back to Home</a>
     </header>
-      <footer class="text-center py-3 bg-light">
-        <p>© 2025 by Randiel James Asis</p>
-    </footer>
-    <main>
-        <p>This is my 2nd blog post! 🎉</p>
+    
+    <main class="container my-4">
+        <div class="row">
+            <div class="col-md-8 mx-auto">
+                <!-- First Post with Multiple Images -->
+                <section class="post">
+                    <div class="image-container">
+                        <img src="images/work 2.jpg" alt="Image 1">
+                        <img src="images/Orientation2.jpg" alt="Image 2">
+                        <img src="images/work 1.jpg" alt="Image 3">
+                        <img src="images/orientation.jpg" alt="Image 4">
+                    </div>
+                    <div class="post-content">
+                        <h2>Week 1</h2>
+                        <p>On the first day, we had an orientation in the morning. Then, we headed to our assigned department. I was assigned to BU-USDS, where we needed to process documents. We were also tasked with fixing their system, which we managed to troubleshoot step by step.</p>
+                        <p>On the second day, we renovated the office, did some clerical work, and continued fixing the spreadsheet system.</p>
+                        <p>On the third day, we did clerical work and some graphic design.</p>
+                    </div>
+                </section>
+
+                <!-- Second Post -->
+                <section class="post d-flex flex-md-row flex-column align-items-center mt-4">
+                    <div class="image-container">
+                        <img src="images/Week2_1.jpg" alt="Image 1">
+                        <img src="images/Week2_2.jpg" alt="Image 2">
+                    </div>
+                    <div class="post-content ms-md-3 mt-3 mt-md-0">
+                        <h2>Week 2</h2>
+                        <p>This week, we dealt with receiving and checking documents, worked on system updates, and fattening program in BU-OSAS.</p>
+                    </div>
+                </section>
+
+                <!-- Third Post -->
+                <section class="post d-flex flex-md-row flex-column align-items-center mt-4">
+                    <div class="image-container d-flex flex-wrap gap-2">
+                        <img src="images/week_3_1.jpg" alt="Image 4">
+                        <img src="images/week_3_2.jpg" alt="Image 5">
+                        <img src="images/week_3_3.jpg" alt="Image 6">
+                        <img src="images/week_3_4.png" alt="Image 7">
+                    </div>
+                    <div class="post-content ms-md-3 mt-3 mt-md-0">
+                        <h2>Week 3</h2>
+                        <p>This week I help my groupmates to make up a design for a system then implement it while doing the work of assigned offices.</p>
+                    </div>
+                </section>
+
+                <!-- Fourth Post -->
+                <section class="post d-flex flex-md-row flex-column align-items-center mt-4">
+                    <div class="image-container d-flex flex-wrap gap-2">
+                        <!-- No images yet -->
+                    </div>
+                    <div class="post-content ms-md-3 mt-3 mt-md-0">
+                        <h2>Week 4</h2>
+                        <p class="text-muted">Coming Soon</p>
+                    </div>
+                </section>
+
+                <!-- Fifth Post -->
+                <section class="post d-flex flex-md-row flex-column align-items-center mt-4">
+                    <div class="image-container d-flex flex-wrap gap-2">
+                        <!-- No images yet -->
+                    </div>
+                    <div class="post-content ms-md-3 mt-3 mt-md-0">
+                        <h2>Week 5</h2>
+                        <p class="text-muted">Coming Soon</p>
+                    </div>
+                </section>
+
+            </div>
+        </div>
     </main>
     <footer class="text-center py-3 bg-light">
         <p>© 2025 by Randiel James Asis</p>
     </footer>
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>

@@ -1,8 +1,8 @@
 const posts = [
-    { title: "Febuary Blog Post", link: "post1.html" },
+    { title: "February Blog Post", link: "post1.html" },
     { title: "March Blog Post", link: "post2.html" },
-    { title: "April Blog Post", link: "post2.html" },
-    { title: "May Blog Post", link: "post2.html" }
+    { title: "April Blog Post", link: "post3.html" },
+    { title: "May Blog Post", link: "post4.html" }
     
 
 ];
